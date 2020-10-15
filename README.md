@@ -12,6 +12,7 @@ Code to set up a Google Cloud project and load the data from the [Riiid Answer C
 ```
 gcloud auth application-default login  # if not already
 echo 'google_billing_account = "YOUR_BILLING_ACCOUNT"' > terraform.tfvars
+terraform init
 terraform apply
 ```
 
