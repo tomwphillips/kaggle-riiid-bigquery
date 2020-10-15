@@ -18,4 +18,4 @@ terraform apply
 # Load data into BigQuery
 
 The data is large enough to be annoying if your internet connection has a slow upload speed.
-Instead, we can do it from a Colab instance.
+Instead, run [`load_data.ipynb` in Colab](https://colab.research.google.com/github/tomwphillips/kaggle-riiid-bigquery/blob/main/load_data.ipynb) to download the data from Kaggle and upload it to BigQuery.
